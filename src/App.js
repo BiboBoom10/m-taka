@@ -1,11 +1,13 @@
 import Introduction from "./Pages/Introduction";
 import styled from "styled-components";
+import SIgnIn from "./Pages/SIgnIn";
+import Input from './components/Input';
+import UserDetails from "./Pages/UserDetails";
 
 function App() {
   return (
     <HomePage>
-      <Introduction />
-      
+     <UserDetails />
     </HomePage>
   );
 }
