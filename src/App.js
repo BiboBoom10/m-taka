@@ -7,11 +7,12 @@ import CheckBox from "./components/CheckBox";
 import SmallInput from "./components/SmallInput";
 import GetStarted from "./Pages/GetStarted";
 import Card from "./components/Card";
+import PickUp from "./Pages/PickUp";
 
 function App() {
   return (
     <HomePage>
-     <GetStarted />
+     <PickUp />
     </HomePage>
   );
 }

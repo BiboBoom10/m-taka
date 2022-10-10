@@ -38,11 +38,30 @@ function GetStarted() {
             <Button>Save Schedule</Button>
           </ButtonAlign>
 
+          <ButtonAlign>
+          <MyButton>Skip For Now</MyButton>
+          </ButtonAlign>
+
         </Card>
 
     </Content>
   )
 }
+
+const MyButton = styled('Button')`
+  background: transparent;
+  padding: 1rem 5rem;
+  border-radius: 1.5rem;
+  color: #57b233;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  &:hover{
+      background-color: #288A00;
+      color: #f8fcf7;
+  }
+`;
 
 const ButtonAlign =  styled.div`
   display: flex;
@@ -83,7 +102,7 @@ const Condition = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem 0.7rem;
+  padding: 0 0 1.5rem 0;
 `;
 
 const Image = styled.img`
