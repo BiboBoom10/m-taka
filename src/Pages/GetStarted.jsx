@@ -5,6 +5,8 @@ import Card from '../components/Card';
 import Input from '../components/Input';
 import { BiSearch } from 'react-icons/bi';
 import SmallInput from '../components/SmallInput';
+import CheckBox from '../components/CheckBox';
+import Button from '../components/Button';
 
 function GetStarted() {
   return (
@@ -17,18 +19,44 @@ function GetStarted() {
             <h3>Let’s Get You Started</h3>
           </Text>
 
-          <Input placeholder="search your location">
-            <BiSearch/>
-          </Input>
+          <InputAlign>
+            <Input placeholder="search your location">
+              <BiSearch/>
+            </Input>
+          </InputAlign>
 
-          <SmallInput placeholder="building name"/>
-          <SmallInput placeholder="house no"/>
+          <InputAlign>
+            <SmallInput placeholder="building name"/>
+            <SmallInput placeholder="house no"/>
+          </InputAlign>
+
+          <Condition>
+          <CheckBox /> <p>I acknowledge that the pick up prices range between KES 200.00 and KES 300.00</p>
+          </Condition>
+
+          <ButtonAlign>
+            <Button>Save Schedule</Button>
+          </ButtonAlign>
 
         </Card>
 
     </Content>
   )
 }
+
+const ButtonAlign =  styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const InputAlign = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  margin: 0.3rem;
+`;
 
 const Text = styled.div`
   p{
@@ -37,11 +65,30 @@ const Text = styled.div`
   }
   h3{
     font-size: 1.2rem;
+    color: #333333;
   }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;
+
+const Condition = styled.div`
+  p{
+    color: #57B133;
+    font-size: 0.8rem;
+    color: #555555;
+    margin-left: 0.5rem;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.7rem;
 `;
 
 const Image = styled.img`
   width: 100%;
+  
 `;
 
 const Content = styled.div`
