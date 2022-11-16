@@ -8,11 +8,12 @@ import SmallInput from "./components/SmallInput";
 import GetStarted from "./Pages/GetStarted";
 import Card from "./components/Card";
 import PickUp from "./Pages/PickUp";
+import Events from "./Pages/Events";
 
 function App() {
   return (
     <HomePage>
-     <PickUp />
+     <Events />
     </HomePage>
   );
 }

@@ -5,6 +5,14 @@
     font-size: 1.2rem;
 }
 
+.hamburger-menu{
+    color: #195700;
+}
+
+.search-button {
+    color: #222222;
+}
+
 .top-navigation{
     margin-left: 1rem;
 }
@@ -12,6 +20,7 @@
 .top-name{
     color: #195700;
     font: 1.4rem bolder;
+    font-weight: 600;
 }
 
 .top-points{
@@ -23,6 +32,10 @@
 .pickup-text{
     color: #222222;
     font-weight: 600;
+}
+
+.points {
+    color: #195700;
 }
 
 .box{
@@ -58,4 +71,31 @@
 .date {
     color: #333333;
     font-size: 0.9rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs-active {
+    color: #195700;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tabs-inactive {
+    color: #333333;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tabs-inactive > div {
+    visibility: hidden;
 }

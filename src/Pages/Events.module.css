@@ -1,0 +1,23 @@
+.image-top {
+    
+}
+
+.image-top img {
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    position: absolute;
+    top: 15rem;
+    height: 40vh;
+    width: 80%;
+}
+
+.card-content p {
+    font-size: 0.8rem;
+}
