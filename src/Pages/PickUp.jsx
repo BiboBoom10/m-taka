@@ -1,11 +1,15 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { BsSearch } from 'react-icons/bs';
+import { BiSearchAlt2 } from 'react-icons/bi';
 import { AiOutlineRight } from 'react-icons/ai';
 import { GoPrimitiveDot } from 'react-icons/go';
+import { FaUserAlt } from 'react-icons/fa';
+import { AiTwotoneCalendar } from 'react-icons/ai';
+import { FaCommentAlt } from 'react-icons/fa';
 import classes from './PickUp.module.css';
 import { data } from './DummyData';
 import { useState } from 'react';
+import ImageFive from '../Images/5.jpg';
 
 function PickUp() {
     const [isFirst, setIsFirst] = useState(true);
@@ -13,7 +17,7 @@ function PickUp() {
     <div>
         <div className={classes.navigation}>
             <GiHamburgerMenu className={classes['hamburger-menu']} />
-            <BsSearch className={classes['search-button']} />
+            <BiSearchAlt2 className={classes['search-button']} />
         </div>
 
         <div className={classes['top-navigation']}>
@@ -52,6 +56,23 @@ function PickUp() {
                 <div><GoPrimitiveDot /></div>
             </div>
 
+        </div>
+
+        <div className={classes['trash-image-container']}>
+            <img className={classes['trash-image']} src={ImageFive} alt="Collecting trash" />
+                <p>
+                    The 3R Initiative aims to promote the "3Rs" (reduce, reuse and recycle) globally so as to build a sound-material-cycle society ...
+                </p>
+            <div className={classes['text-icons']}>
+                <FaUserAlt /><p>M-Taka</p>
+                <AiTwotoneCalendar /><p>12-09-2022</p>
+                <FaCommentAlt /><p>3 Comments</p>
+            </div>
+        </div>
+
+        <div className={classes['emergency-tab']} >
+            <p className={classes['view-text']} >View All ></p>
+            <p className={classes['emergency-button']}>Emergency Pick Up</p>
         </div>
 
         

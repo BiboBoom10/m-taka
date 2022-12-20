@@ -5,12 +5,18 @@
     font-size: 1.2rem;
 }
 
+p{
+    color: #333333;
+}
+
 .hamburger-menu{
     color: #195700;
 }
 
 .search-button {
-    color: #222222;
+    color: #195700;
+    font-size: 1.6rem;
+    margin-top: -0.3rem;
 }
 
 .top-navigation{
@@ -98,4 +104,61 @@
 
 .tabs-inactive > div {
     visibility: hidden;
+}
+
+.trash-image-container {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+
+}
+
+.trash-image{
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.05rem 0.5rem grey;
+}
+
+.trash-image-container p {
+    font-size: 0.9rem;
+    margin: 0.9rem 0.3rem;
+}
+
+.text-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #195700;
+    margin-top: -1rem;
+    font-size: 0.9rem;
+}
+
+.text-icons p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.emergency-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.emergency-button{
+    background-color: rgb(248, 42, 42);
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+.emergency-button:hover{
+    background-color: rgb(237, 6, 6);
+}
+
+.view-text {
+    color: #195700;
 }

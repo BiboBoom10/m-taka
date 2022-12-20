@@ -10,10 +10,11 @@ import Card from "./components/Card";
 import PickUp from "./Pages/PickUp";
 import Events from "./Pages/Events";
 
+
 function App() {
   return (
     <HomePage>
-     <Events />
+      <PickUp />
     </HomePage>
   );
 }
