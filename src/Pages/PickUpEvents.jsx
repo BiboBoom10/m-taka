@@ -1,19 +1,17 @@
 import React from 'react';
+import { useState } from 'react';
+import classes from './PickUpEvents.module.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { BiSearchAlt2 } from 'react-icons/bi';
-import { AiOutlineRight } from 'react-icons/ai';
-import { GoPrimitiveDot } from 'react-icons/go';
-import { FaUserAlt } from 'react-icons/fa';
-import { AiTwotoneCalendar } from 'react-icons/ai';
-import { FaCommentAlt } from 'react-icons/fa';
-import classes from './PickUp.module.css';
 import { data } from './DummyData';
-import { useState } from 'react';
-import ImageFive from '../Images/5.jpg';
+import { GoPrimitiveDot } from 'react-icons/go';
+import { AiOutlineRight } from 'react-icons/ai';
+import EventCard from '../components/EventCard';
 
-function PickUp() {
+function PickUpEvents() {
     const [isFirst, setIsFirst] = useState(true);
   return (
+    
     <div>
         <div className={classes.navigation}>
             <GiHamburgerMenu className={classes['hamburger-menu']} />
@@ -58,27 +56,14 @@ function PickUp() {
 
         </div>
 
-        <div className={classes['trash-image-container']}>
-            <img className={classes['trash-image']} src={ImageFive} alt="Collecting trash" />
-                <p>
-                    The 3R Initiative aims to promote the "3Rs" (reduce, reuse and recycle) globally so as to build a sound-material-cycle society ...
-                </p>
-            <div className={classes['text-icons']}>
-                <FaUserAlt /><p>M-Taka</p>
-                <AiTwotoneCalendar /><p>12-09-2022</p>
-                <FaCommentAlt /><p>3 Comments</p>
-            </div>
+        <div>
+         <EventCard />
+         <EventCard />
+         <EventCard />
         </div>
 
-        <div className={classes['emergency-tab']} >
-            <p className={classes['view-text']} >View All ></p>
-            <p className={classes['emergency-button']}>Emergency Pick Up</p>
-        </div>
-
-        
-        
     </div>
   )
 }
 
-export default PickUp;
+export default PickUpEvents;

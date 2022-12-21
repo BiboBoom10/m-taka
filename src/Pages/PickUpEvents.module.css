@@ -1,0 +1,107 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+p{
+    color: #333333;
+}
+
+.hamburger-menu{
+    color: #195700;
+}
+
+.search-button {
+    color: #195700;
+    font-size: 1.6rem;
+    margin-top: -0.3rem;
+}
+
+.top-navigation{
+    margin-left: 1rem;
+}
+
+.top-name{
+    color: #195700;
+    font: 1.4rem bolder;
+    font-weight: 600;
+}
+
+.top-points{
+    color: #333333;
+    font-size: 1.2rem;
+    margin-top: -1rem;
+}
+
+.pickup-text{
+    color: #222222;
+    font-weight: 600;
+}
+
+.points {
+    color: #195700;
+}
+
+.box{
+    background-color: #FF9F46;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+.schedule-box {
+    background: #ececec;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 0.5rem gray;
+    border-radius: 1rem;
+}
+
+.scheduled-pickup {
+    color: #222222;
+    font-weight: 600;
+}
+
+.date {
+    color: #333333;
+    font-size: 0.9rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs-active {
+    color: #195700;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tabs-inactive {
+    color: #333333;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tabs-inactive > div {
+    visibility: hidden;
+}

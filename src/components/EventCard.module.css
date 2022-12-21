@@ -1,0 +1,35 @@
+
+.event-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+    height: 5rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 0.01rem 0.01rem 0.1rem gray;
+    background-color: #f9f9f9;
+}
+
+.event-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.environment {
+    height: 4rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+}
+
+.scheduled-event {
+    font-weight: 600;
+}
+
+.scheduled-area {
+    font-size: 0.85rem;
+    color: #333333;
+}
