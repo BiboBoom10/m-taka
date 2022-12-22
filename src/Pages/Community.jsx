@@ -15,7 +15,7 @@ function Community() {
     const [isFirst, setIsFirst] = useState(true);
   return (
     <div>
-        <div className={classes.navigation}>
+        {/* <div className={classes.navigation}>
             <GiHamburgerMenu className={classes['hamburger-menu']} />
             <BiSearchAlt2 className={classes['search-button']} />
         </div>
@@ -56,7 +56,7 @@ function Community() {
                 <div><GoPrimitiveDot /></div>
             </div>
 
-        </div>
+        </div> */}
 
         <div className={classes['trash-image-container']}>
             <img className={classes['trash-image']} src={ImageFive} alt="Collecting trash" />
@@ -71,7 +71,7 @@ function Community() {
         </div>
 
         <div className={classes['emergency-tab']} >
-            <p className={classes['view-text']} >View All ></p>
+            <p className={classes['view-text']} >View All </p>
             <p className={classes['emergency-button']}>Emergency Pick Up</p>
         </div>
 
