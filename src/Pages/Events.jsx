@@ -31,4 +31,4 @@ const CardContent = styled(Card)`
 
 
 
-export default Events;
+export default Events

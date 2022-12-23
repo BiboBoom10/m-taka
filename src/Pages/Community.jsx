@@ -71,7 +71,7 @@ function Community() {
         </div>
 
         <div className={classes['emergency-tab']} >
-            <p className={classes['view-text']} >View All ></p>
+            <p className={classes['view-text']} >View All </p>
             <p className={classes['emergency-button']}>Emergency Pick Up</p>
         </div>
 

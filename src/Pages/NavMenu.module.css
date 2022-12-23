@@ -1,0 +1,28 @@
+.menu-content {
+    background-color: #efefef;
+    width: 80%;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 15rem;
+    margin-top: -4rem;
+}
+
+.top-name{
+    color: #195700;
+    font: 1.4rem bolder;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.top-points{
+    color: #333333;
+    font-size: 1.1rem;
+    margin-top: -1rem;
+}
+
+.user-data {
+    margin-top: -6rem;
+    margin-left: 1.5rem;
+}

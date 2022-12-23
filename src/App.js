@@ -11,12 +11,13 @@ import Community from "./Pages/Community";
 import Events from "./Pages/Events";
 import PickUpEvents from "./Pages/PickUpEvents";
 import EventCard from "./components/EventCard";
+import NavMenu from "./Pages/NavMenu";
 
 
 function App() {
   return (
     <HomePage>
-      <PickUpEvents />
+      <Community />
     </HomePage>
   );
 }
