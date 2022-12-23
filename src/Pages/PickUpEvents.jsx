@@ -7,6 +7,8 @@ import { data } from './DummyData';
 import { GoPrimitiveDot } from 'react-icons/go';
 import { AiOutlineRight } from 'react-icons/ai';
 import EventCard from '../components/EventCard';
+import Events from './Events';
+import Community from './Community';
 
 function PickUpEvents() {
     const [isFirst, setIsFirst] = useState(true);
@@ -56,11 +58,13 @@ function PickUpEvents() {
 
         </div>
 
-        <div>
+        {isFirst && <Community></Community>}
+
+        {!isFirst && <div>
          <EventCard />
          <EventCard />
          <EventCard />
-        </div>
+        </div>}
 
     </div>
   )
