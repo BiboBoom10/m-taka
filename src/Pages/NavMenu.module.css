@@ -1,7 +1,8 @@
 .menu-content {
-    background-color: #efefef;
+    background-color: #f2f2f2;
     width: 80%;
     min-height: 100vh;
+    position: absolute;
 }
 
 .logo {
@@ -25,4 +26,45 @@
 .user-data {
     margin-top: -6rem;
     margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.menu-icons {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.each-icon{
+    transition-duration: 0.4s;
+}
+
+.each-icon:hover {
+    /* background-color: #848484; */
+    background-color: #195700;
+    padding: 1rem;
+    color: #efefef;
+    transition: ease-in-out;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.05rem 0.2rem gray;
+}
+
+.search-bar {
+    /* background-color: #195700; */
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    padding-top: 2rem;
+}
+
+.search-bar:hover {
+    color: #195700;
+    cursor: pointer;
+}
+
+.icon-spacing {
+    padding-right: 0.5rem;
 }

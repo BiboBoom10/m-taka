@@ -17,7 +17,7 @@ import NavMenu from "./Pages/NavMenu";
 function App() {
   return (
     <HomePage>
-      <Community />
+      <NavMenu />
     </HomePage>
   );
 }
