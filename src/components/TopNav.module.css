@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.hamburger-menu{
+    color: #195700;
+    cursor: pointer;
+}
+
+.search-button {
+    color: #195700;
+    font-size: 1.55rem;
+    margin-top: -0.3rem;
+    cursor: pointer;
+}
+
+.top-name {
+    margin-left: 1.2rem;
+    margin-top: -1.5rem;
+    font-weight: 600;
+}
+
+.top-name p {
+    color: #195700;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,21 @@
+.trash-image-container {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    border: 0.05rem solid rgb(229, 229, 229);
+    border-radius: 1rem;
+    padding: 0 0.2rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.text-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #195700;
+    margin-top: -1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+

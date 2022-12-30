@@ -12,12 +12,15 @@ import Events from "./Pages/Events";
 import PickUpEvents from "./Pages/PickUpEvents";
 import EventCard from "./components/EventCard";
 import NavMenu from "./Pages/NavMenu";
+import Feed from "./Pages/Feed";
+import TopNav from "./components/TopNav";
+import FeedComponent from "./components/FeedComponent";
 
 
 function App() {
   return (
     <HomePage>
-      <NavMenu />
+      <Feed />
     </HomePage>
   );
 }
