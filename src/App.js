@@ -15,12 +15,13 @@ import NavMenu from "./Pages/NavMenu";
 import Feed from "./Pages/Feed";
 import TopNav from "./components/TopNav";
 import FeedComponent from "./components/FeedComponent";
+import EventList from "./Pages/EventList";
 
 
 function App() {
   return (
     <HomePage>
-      <Feed />
+      <EventList />
     </HomePage>
   );
 }
