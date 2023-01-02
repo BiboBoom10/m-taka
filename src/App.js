@@ -16,12 +16,13 @@ import Feed from "./Pages/Feed";
 import TopNav from "./components/TopNav";
 import FeedComponent from "./components/FeedComponent";
 import EventList from "./Pages/EventList";
+import Post from "./Pages/Post";
 
 
 function App() {
   return (
     <HomePage>
-      <EventList />
+      <Post />
     </HomePage>
   );
 }
