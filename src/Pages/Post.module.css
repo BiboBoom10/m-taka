@@ -39,6 +39,7 @@
 .user-textbox {
     border: 0.1rem solid rgb(199, 199, 199);
     border-radius: 0.5rem;
+    padding: 0.5rem;
 }
 
 .image-button {

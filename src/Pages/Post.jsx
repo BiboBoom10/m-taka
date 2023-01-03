@@ -21,7 +21,7 @@ function Post() {
         </div>
 
         <div className={classes['text-box-align']}>
-            <textarea className={classes['user-textbox']} rows="8" cols="45" placeholder='Write your post(Up to 500 Characters)'></textarea>
+            <textarea className={classes['user-textbox']} rows="8" cols="43" placeholder='Write your post(Up to 500 Characters)'></textarea>
         </div>
 
         <div>

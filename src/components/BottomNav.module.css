@@ -1,0 +1,31 @@
+.nav-position {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu-icons {
+    background-color: rgb(244, 244, 244);
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.35rem;
+    align-items: center;
+    overflow: hidden;
+    border-top: 0.05rem solid #288304;
+}
+
+.home-icon{
+    color: #288304;
+    font-size: 1.4rem;
+}
+
+.cal-bigger {
+    font-size: 1.55rem;
+}
+
+.mic-bigger {
+    font-size: 1.6rem;
+}
+
