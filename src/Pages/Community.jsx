@@ -10,6 +10,7 @@ import classes from './Community.module.css';
 import { data } from './DummyData';
 import { useState } from 'react';
 import ImageFive from '../Images/5.jpg';
+import BottomNav from '../components/BottomNav';
 
 function Community() {
     const [isFirst, setIsFirst] = useState(true);
@@ -74,8 +75,6 @@ function Community() {
             <p className={classes['view-text']} >View All </p>
             <p className={classes['emergency-button']}>Emergency Pick Up</p>
         </div>
-
-        
         
     </div>
   )

@@ -6,7 +6,7 @@ import classes from './TopNav.module.css';
 function TopNav(props) {
 
   return (
-    <div>
+    <div className={classes['nav-position']}>
          <div className={classes.navigation}>
             <GiHamburgerMenu className={classes['hamburger-menu']} />
             <BiSearchAlt2 className={classes['search-button']} />

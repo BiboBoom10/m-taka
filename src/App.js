@@ -18,12 +18,13 @@ import FeedComponent from "./components/FeedComponent";
 import EventList from "./Pages/EventList";
 import Post from "./Pages/Post";
 import BottomNav from "./components/BottomNav";
+import Request from "./components/Request";
 
 
 function App() {
   return (
     <HomePage>
-      <BottomNav />
+      <NavMenu />
     </HomePage>
   );
 }
