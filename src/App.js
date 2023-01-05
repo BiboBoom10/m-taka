@@ -19,12 +19,14 @@ import EventList from "./Pages/EventList";
 import Post from "./Pages/Post";
 import BottomNav from "./components/BottomNav";
 import Request from "./components/Request";
+import WeightCard from "./components/WeightCard";
+import Points from "./Pages/Points";
 
 
 function App() {
   return (
     <HomePage>
-      <NavMenu />
+      <Points />
     </HomePage>
   );
 }

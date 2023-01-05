@@ -6,7 +6,7 @@
     line-height: 0.25rem;
     background-color: #ececec;
     margin: 1rem;
-    padding: 0.5rem 0.8rem;
+    padding: 0.01rem 0.5rem;
     border-radius: 0.5rem;
     /* box-shadow: 0.015rem 0.015rem 0.1rem gray, -0.015rem -0.015rem 0.1rem gray ; */
     border: 0.01rem solid rgb(201, 201, 201);
@@ -16,7 +16,7 @@
     background-color: #FF9F46;
     padding: 0.2rem 1.5rem;
     border-radius: 0.2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .letter-icon p {

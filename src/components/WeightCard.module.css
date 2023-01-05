@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 0.5rem;
+    background-color: #FF4242;
+    margin: 0.2rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.weight-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weight-content p {
+    color: #f2f2f2;
+}
+
+.letter-icon {
+    /* background-color: ; */
+    border: 0.1rem solid #ededed;
+    border-radius: 0.2rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.letter-icon p {
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.arrow p {
+    color: #f2f2f2;
+    cursor: pointer;
+}

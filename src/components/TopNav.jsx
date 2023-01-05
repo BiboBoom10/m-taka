@@ -14,6 +14,7 @@ function TopNav(props) {
 
         <div className={classes['top-name']}>
           <p> {props.children} </p>
+          {/* <p className={classes.points}> {props.points} </p> */}
         </div>
     </div>
   )
