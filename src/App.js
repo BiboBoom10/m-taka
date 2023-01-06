@@ -21,12 +21,13 @@ import BottomNav from "./components/BottomNav";
 import Request from "./components/Request";
 import WeightCard from "./components/WeightCard";
 import Points from "./Pages/Points";
+import RecordWeight from "./Pages/RecordWeight";
 
 
 function App() {
   return (
     <HomePage>
-      <Points />
+      <RecordWeight />
     </HomePage>
   );
 }
