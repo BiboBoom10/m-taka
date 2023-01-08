@@ -25,12 +25,14 @@ import RecordWeight from "./Pages/RecordWeight";
 import PendingRequest from "./Pages/PendingRequest";
 import SchedulePickupCard from "./components/SchedulePickupCard";
 import EmergencyPickup from "./components/EmergencyPickup";
+import VoucherCard from "./components/VoucherCard";
+import UpComingPickup from "./Pages/UpComingPickup";
 
 
 function App() {
   return (
     <HomePage>
-      <PendingRequest />
+      <UpComingPickup />
     </HomePage>
   );
 }
