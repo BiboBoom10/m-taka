@@ -1,0 +1,30 @@
+
+.box{
+    background-color: #FF9F46;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+.schedule-box {
+    background: #ececec;
+    margin: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 0.5rem gray;
+    border-radius: 0.5rem;
+}
+
+.scheduled-pickup {
+    color: #222222;
+    font-weight: 600;
+}

@@ -5,6 +5,7 @@ import classes from './RecordWeight.module.css';
 import { GoPrimitiveDot } from 'react-icons/go';
 import { useState } from 'react';
 import FeedComponent from '../components/FeedComponent';
+import BottomNav from '../components/BottomNav';
 
 function RecordWeight() {
 
@@ -15,7 +16,7 @@ function RecordWeight() {
         <TopNav children = "Hi Wuod," />
 
         <div className={classes.points}>
-            <p>You’re on <span className={classes['points-color']}>2345 Points!</span></p>
+            <p>You’re on <span className={classes['points-color']}>2345 Kgs!</span></p>
         </div>
 
         <WeightCard />
@@ -39,6 +40,8 @@ function RecordWeight() {
         </div>
 
         <p className={classes['view-items']}>View All ></p>
+
+        <BottomNav />
 
     </div>
 

@@ -22,12 +22,15 @@ import Request from "./components/Request";
 import WeightCard from "./components/WeightCard";
 import Points from "./Pages/Points";
 import RecordWeight from "./Pages/RecordWeight";
+import PendingRequest from "./Pages/PendingRequest";
+import SchedulePickupCard from "./components/SchedulePickupCard";
+import EmergencyPickup from "./components/EmergencyPickup";
 
 
 function App() {
   return (
     <HomePage>
-      <RecordWeight />
+      <PendingRequest />
     </HomePage>
   );
 }
