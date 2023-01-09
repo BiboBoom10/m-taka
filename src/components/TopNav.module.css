@@ -1,7 +1,10 @@
 .nav-position {
+    /* position: absolute; */
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
 }
 
 .navigation {
@@ -23,15 +26,24 @@
     cursor: pointer;
 }
 
+.text-position {
+  
+}
+
 .top-name {
     margin-left: 1.2rem;
-    margin-top: -1.5rem;
+    margin-top: -1.2rem;
     font-weight: 600;
+    
 }
 
 .top-name p {
     color: #195700;
     font-size: 1.4rem;
+    position: absolute;
+    top: 1.2rem;
+    /* background-color: #ff9306; */
+    padding-top: 1rem;
 }
 
 .points {

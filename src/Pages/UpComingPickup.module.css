@@ -1,5 +1,5 @@
 .points {
-    margin-top: 5.5rem;
+    margin-top: 6.5rem;
     margin-left: 1.2rem;
 }
 
@@ -39,4 +39,10 @@
 
 .tabs-inactive > div {
     visibility: hidden;
+}
+
+.myimage {
+    width: 90%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin: 1rem 1rem -1rem 1rem;
 }

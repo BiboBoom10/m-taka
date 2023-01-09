@@ -4,6 +4,9 @@ import TopNav from '../components/TopNav';
 import VoucherCard from '../components/VoucherCard';
 import classes from './UpComingPickup.module.css';
 import { GoPrimitiveDot } from 'react-icons/go';
+import ImageFour from '../Images/4.jpeg';
+import FeedComponent from '../components/FeedComponent';
+import BottomNav from '../components/BottomNav';
 
 function UpComingPickup() {
 
@@ -28,16 +31,24 @@ function UpComingPickup() {
         <div className={classes.tabs}>
 
             <div className={isFirst ? classes['tabs-active'] : classes['tabs-inactive']} onClick={() => setIsFirst(true)}>
-                <p>Pending Requests</p>
+                <p>Latest On Community</p>
                 <div><GoPrimitiveDot /></div>
             </div>
 
             <div className={!isFirst ? classes['tabs-active'] : classes['tabs-inactive']} onClick={() => setIsFirst(false)}>
-                <p>Accepted Request</p>
+                <p>Events</p>
                 <div><GoPrimitiveDot /></div>
             </div>
 
         </div>
+
+        <div>
+            <img className={classes.myimage} src={ImageFour} />
+            
+            <FeedComponent />
+        </div>
+
+        <BottomNav />
 
     </div>
   )
