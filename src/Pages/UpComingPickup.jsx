@@ -48,6 +48,10 @@ function UpComingPickup() {
             <FeedComponent />
         </div>
 
+        <div>
+            <p>View all ></p>
+        </div>
+
         <BottomNav />
 
     </div>

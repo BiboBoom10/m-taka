@@ -27,12 +27,13 @@ import SchedulePickupCard from "./components/SchedulePickupCard";
 import EmergencyPickup from "./components/EmergencyPickup";
 import VoucherCard from "./components/VoucherCard";
 import UpComingPickup from "./Pages/UpComingPickup";
+import ViewAll from "./Pages/ViewAll";
 
 
 function App() {
   return (
     <HomePage>
-      <UpComingPickup />
+      <ViewAll />
     </HomePage>
   );
 }

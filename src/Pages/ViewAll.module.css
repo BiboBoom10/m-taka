@@ -1,0 +1,42 @@
+.my-image {
+    width: 90%;
+    margin: 5rem 0rem 0rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.my-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.icon-size {
+    font-size: 1rem;
+    margin-right: 0.25rem;
+}
+
+.my-icons p {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.content {
+    margin-top: -1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.heading p {
+    color: #195700;
+    font-weight: 600;
+    /* font-size: 0.9rem; */
+}
+
+.text p {
+    font-size: 0.9rem;
+    color: #535353;
+}
